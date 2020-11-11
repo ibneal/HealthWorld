@@ -1,5 +1,6 @@
 
   body {
+    background-color: lightsalmon;
     margin: 0;
     padding: 0;
     animation: 0;
@@ -12,22 +13,22 @@
     margin-right: auto;
     width: 1024px;
   }
-
   .head1 {
     margain: 0;
-    padding: 0:
+    padding: 10;
     font-family: Arial;
 
   }
   header {
-    height: 118px;
+    height: 200px;
     text-align: center;
   }
   nav{
-    background-color: aqua;
+    background-color: #cd0c6d;
+    opacity: 0.9;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 
-  }
 
+  }
