@@ -6,6 +6,8 @@ function preload () {
   game.load.image('earth', 'assets/light_sand.png')
   game.load.spritesheet('dude', 'assets/dude.png', 64, 64)
   game.load.spritesheet('enemy', 'assets/dude.png', 64, 64)
+
+
 }
 
 var socket // Socket connection
