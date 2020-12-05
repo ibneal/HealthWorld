@@ -11,11 +11,12 @@
   "author": "Francisco Dias",
   "license": "MIT",
   "dependencies": {
-    "ecstatic": "^1.0.1",
-    "socket.io": "^1.4.5"
-  },
-  "devDependencies": {
-    "nodemon": "^0.7.10",
-    "standard": "^5.3.1"
+    "ecstatic": "^4.1.4",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.3",
+    "standard": "^16.0.3",
+    "stripe": "^8.127.0"
   }
 }
