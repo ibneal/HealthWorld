@@ -18,5 +18,8 @@
     "socket.io": "^3.0.3",
     "standard": "^16.0.3",
     "stripe": "^8.127.0"
+  },
+  "devDependencies": {
+    "docenv": "^1.0.0"
   }
 }
