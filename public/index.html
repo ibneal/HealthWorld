@@ -3,8 +3,10 @@
     <head>
       <meta charset='UTF-8' />
       <title>Phaser multiplayer game</title>
-      <link rel="stylesheet" href="game.css">
-
+      <link type='text/css' rel='stylesheet' href='/style/reset.css' />
+      <link type='text/css' rel='stylesheet' href='/style/game.css' />
+      <script src='/js/vendor/phaser.min.js'></script>
+      <script src='/socket.io/socket.io.js'></script>
 
   </head>
     <style>
@@ -32,6 +34,7 @@
       }
 
     </style>
+
   <body>
  <ul>
    <li><a class="active" href="base.html">Home</a></li>
@@ -47,38 +50,23 @@
 
         <div class="head1">Phaser multiplayer game</div>
         <div class="head2">Lets Play And Become Healthy</div>
-        <div class="banner"= "banner animated tada">
           <div class="big-text animated tada">We are looking for Sponsors
             <a href='#About us'>Contact us to plac an ad</a>
           </div>
-        </div>
 
        </header>
 
-      <h1>
-        <h1 style="font-family: Chalkboard"<p>
-          Welcome to our HealthApp Game website.<br>
-          You will be playing this game to improve<br>
-          your health and compete with other people<br>
-          and you can also see your positions on the<br>
-          table. We hope that you enjoy this game and<br>
-          let us know if there is any thing that needs<br>
-          Fixed.<br>
-          TEAM NEPSYDEZ
+ <p>
+   Welcome to our HealthApp Game website.
+   You will be playing this game to improve
+   your health and compete with other people
+   and you can also see your positions on the
+   table. We hope that you enjoy this game and
+   let us know if there is any thing that needs fixing.
+ </p>
 
-        </p>
-      </h1>
+ <script src='/js/RemotePlayer.js'></script>
+ <script src='/js/game.js'></script>
 
-
-      </style>
-      </head>
-      <body>
-
-
-    </div>
-
-    <!--<script src='/js/RemotePlayer.js'></script>-->
-    <!--<script src='/js/game.js'></script>-->
-    <script src='stripe.js'></script>
   </body>
 </html>
