@@ -1,0 +1,9 @@
+{
+    "donations": [
+        {
+            "id":1,
+            "name":"Donation",
+            "price": 10
+        }
+    ]
+}
