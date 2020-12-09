@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset='UTF-8' />
+      <title>Phaser multiplayer game Donations</title>
+      <link rel="stylesheet" href="game.css">
+
+
+  </head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgreen;
+
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+      }
+      li a:hover {
+        background-color: black;
+      }
+
+    </style>
+  <body>
+ <ul>
+   <li><a class="active" href="index.html">Home</a></li>
+   <li><a href="#Update">Update</a></li>
+   <li><a href="#Score">Score</a></li>
+   <li><a href="about.html">About Us</a></li>
+   <li><a href="donate.html">Donation</a></li>
+ </ul>
+
+
+    <div class="Container">
+      <header>
+
+        <div class="head1">Phaser multiplayer game</div>
+        <div class="head2">Lets Play And Become Healthy</div>
+
+        <div class="banner"= "banner animated tada">
+          <div class="big-text animated tada">We are looking for Sponsors
+            <a href='#About us'>Contact us to plac an ad</a>
+          </div>
+        </div>
+       </header>
+
+      <h1>
+        <h1 style="font-family: Chalkboard"<p>
+          Thank you for Donating!<br>
+        </p>
+        <form method="POST" action="card.html">
+          <div>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name">
+          </div>
+          <div>
+            <label for="email">Email address: </label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div>
+            <label for="amount">Amount: </label>
+            <input id="amount" type="number" name="amount" min="1">
+          </div>
+          <div>
+            <button type="submit">Next</button>
+            </a>
+          </div>
+        </form>
+      </h1>
+
+
+      </style>
+      </head>
+      <body>
+
+
+    </div>
+
+    <!--<script src='/js/RemotePlayer.js'></script>-->
+    <!--<script src='/js/game.js'></script>-->
+    <script src='server.js'></script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </body>
+</html>
