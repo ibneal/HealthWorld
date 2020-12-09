@@ -2,15 +2,53 @@
 <html lang='en'>
 <head>
     <meta charset='UTF-8' />
-    <title>Phaser multiplayer game</title>
-    <link type='text/css' rel='stylesheet' href='/style/reset.css' />
-    <link type='text/css' rel='stylesheet' href='/style/game.css' />
-    <script src='/js/vendor/phaser.min.js'></script>
-    <script src='/socket.io/socket.io.js'></script>
+    <title>Phaser Healthy multiplayer game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
-<script src='/js/RemotePlayer.js'></script>
-<script src='/js/game.js'></script>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgreen;
+
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    }
+    li a:hover {
+        background-color: black;
+    }
+
+</style>
+<ul>
+    <li><a class="active" href="base.html">Home</a></li>
+    <li><a href="#Update">Update</a></li>
+    <li><a href="#Score">Score</a></li>
+    <li><a href="#About Us">About Us</a></li>
+    <li><a href="donate.html">Donation</a></li>
+</ul>
+
+<a href="about.html" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">Contact us to place an ad</a>
+<a href="game.html" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">Click here to play the game!</a>
+<p>
+    Welcome to our HealthApp Game website.
+    You will be playing this game to improve
+    your health and compete with other people
+    and you can also see your positions on the
+    table. We hope that you enjoy this game and
+    let us know if there is any thing that needs fixing.
+</p>
 </body>
 </html>
